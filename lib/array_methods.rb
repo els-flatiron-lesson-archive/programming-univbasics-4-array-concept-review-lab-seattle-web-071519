@@ -10,9 +10,11 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-highest_slot = 0
-
-
+  highest_slot = 0
+  array.length.times { |index|
+    highest_slot = 
+    
+  }
 
 end
 
