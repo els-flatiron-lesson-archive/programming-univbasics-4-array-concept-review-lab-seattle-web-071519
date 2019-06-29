@@ -12,8 +12,9 @@ end
 def find_max_value(array)
   highest_slot = 0
   array.length.times { |index|
-    highest_slot = 
-    
+    if array[index] > highest_slot
+      highest_slot = array[index]
+    end
   }
 
 end
